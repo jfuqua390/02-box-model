@@ -14,7 +14,7 @@ body {
   margin: 1rem;
   /*background: gray;*/
   border: .1rem solid black;
-  max-width: 64rem;
+  max-width: 63.13rem;
   height: 25rem;
 }
 
@@ -55,4 +55,13 @@ body {
 .octocat__pic {
   max-width: 19.9rem;
   display: inline;
+}
+
+.octocat__no {
+  font-weight: lighter;
+  color: lightgray;
+}
+
+.octocat__name {
+
 }
