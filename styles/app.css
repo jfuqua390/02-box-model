@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.grid {
+  margin: 1rem;
+  /*background: gray;*/
+  border: .1rem solid black;
+  max-width: 63.13rem;
+  height: 25rem;
+}
+
+.big_box {
+  max-width: 20rem;
+  height: 20rem;
+  margin: .5rem;
+  /*background: yellow;*/
+  border: .1rem solid gray;
+  float: left;
+}
+
+.bottom_box {
+  width: 20rem;
+  height: 3rem;
+  border-bottom: .1rem solid gray;
+}
+
+.bottom_left_box {
+  float: left;
+  /*background: pink;*/
+}
+
+.avatar {
+  vertical-align: center;
+  max-width: 1rem;
+  display: inline;
+  margin: .2rem;
+}
+
+.bottom_right_box {
+  float: right;
+  /*background: green;*/
+  display: flex;
+  align-items: center;
+}
+
+.octocat__pic {
+  max-width: 19.9rem;
+  display: inline;
+}
+
+.octocat__no {
+  font-weight: lighter;
+  color: lightgray;
+}
+
+.octocat__name {
+
+}
